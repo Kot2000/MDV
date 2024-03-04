@@ -1,0 +1,4 @@
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\obj\Debug\net7.0\MD Viewer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\obj\Debug\net7.0\MD Viewer.AssemblyInfoInputs.cache
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\obj\Debug\net7.0\MD Viewer.AssemblyInfo.cs
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\obj\Debug\net7.0\MD Viewer.csproj.CoreCompileInputs.cache

@@ -1,0 +1,30 @@
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\ICSharpCode.AvalonEdit.dll
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\MdXaml.dll
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\MdXaml.Plugins.dll
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\Markdown Viewer.deps.json
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\Markdown Viewer.exe
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\Markdown Viewer.runtimeconfig.json
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\Markdown Viewer.dll
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\Markdown Viewer\Markdown Viewer.pdb
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\resources.pri
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\AppxManifest.xml
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\bin\AnyCPU\Debug\MDV Installer.build.appxrecipe
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\MDV Installer.wapproj.AssemblyReference.cache
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\MDV Installer.wapproj.CoreCompileInputs.cache
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\priconfig.xml
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\priconfig.xml.intermediate
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\unfiltered.layout.resfiles
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\filtered.layout.resfiles
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\filtered.layout.resfiles.intermediate
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\excluded.layout.resfiles
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\excluded.layout.resfiles.intermediate
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\resources.resfiles
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\resources.resfiles.intermediate
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\pri.resfiles
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\pri.resfiles.intermediate
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\qualifiers.txt
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\qualifiers.txt.intermediate
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\ProjectArchitectures.txt
+D:\Dokumenty ( Dysk D )\VB-Projects\MD Viewer\MDV Installer\obj\Debug\MDV Installer.wapproj.LastBuild.txt

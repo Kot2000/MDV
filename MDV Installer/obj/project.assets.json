@@ -1,0 +1,868 @@
+{
+  "version": 3,
+  "targets": {
+    "UAP,Version=v10.0.17763": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x64": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x86": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "AvalonEdit/6.3.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MdXaml/1.27.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.3.0.90",
+          "MdXaml.Plugins": "1.27.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.dll": {}
+        }
+      },
+      "MdXaml.Plugins/1.27.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MdXaml.Plugins.dll": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Markdown Viewer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MdXaml": "1.27.0"
+        },
+        "compile": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Markdown Viewer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "AvalonEdit/6.3.0.90": {
+      "sha512": "WVTb5MxwGqKdeasd3nG5udlV4t6OpvkFanziwI133K0/QJ5FvZmfzRQgpAjGTJhQfIA8GP7AzKQ3sTY9JOFk8Q==",
+      "type": "package",
+      "path": "avalonedit/6.3.0.90",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PackageReadme.md",
+        "avalonedit.6.3.0.90.nupkg.sha512",
+        "avalonedit.nuspec",
+        "images/AvalonEditNuGetPackageIcon.png",
+        "lib/net462/ICSharpCode.AvalonEdit.dll",
+        "lib/net462/ICSharpCode.AvalonEdit.xml",
+        "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.dll",
+        "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.xml",
+        "lib/net7.0-windows7.0/ICSharpCode.AvalonEdit.dll",
+        "lib/net7.0-windows7.0/ICSharpCode.AvalonEdit.xml"
+      ]
+    },
+    "MdXaml/1.27.0": {
+      "sha512": "VWhqhCeKVkJe8vkPmXuGZlRX01WDrTugOLeUvJn18jH/8DrGGVBvtgIlJoELHD2f1DiEWqF3lxxjV55vnzE7Tg==",
+      "type": "package",
+      "path": "mdxaml/1.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MdXaml.md",
+        "lib/net45/MdXaml.dll",
+        "lib/net462/MdXaml.dll",
+        "lib/net6.0-windows7.0/MdXaml.dll",
+        "lib/netcoreapp3.0/MdXaml.dll",
+        "mdxaml.1.27.0.nupkg.sha512",
+        "mdxaml.nuspec"
+      ]
+    },
+    "MdXaml.Plugins/1.27.0": {
+      "sha512": "We7LtBdoukRg9mqTfa1f5n8z/GQPMKBRj3URk9DiMuqzIHkW1lTgK5njVPSScxsRt4YzW22423tSnLWNm2MJKg==",
+      "type": "package",
+      "path": "mdxaml.plugins/1.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MdXaml.Plugins.dll",
+        "lib/net462/MdXaml.Plugins.dll",
+        "lib/net6.0-windows7.0/MdXaml.Plugins.dll",
+        "lib/netcoreapp3.0/MdXaml.Plugins.dll",
+        "mdxaml.plugins.1.27.0.nupkg.sha512",
+        "mdxaml.plugins.nuspec"
+      ]
+    },
+    "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+      "sha512": "7ZL2sFSioYm1Ry067Kw1hg0SCcW5kuVezC2SwjGbcPE61Nn+gTbH86T73G3LcEOVj0S3IZzNuE/29gZvOLS7VA==",
+      "type": "package",
+      "path": "microsoft.windows.sdk.buildtools/10.0.22621.756",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bin/10.0.22621.0/arm/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.22621.0/arm/DeployUtil.exe",
+        "bin/10.0.22621.0/arm64/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.22621.0/arm64/ComparePackage.exe",
+        "bin/10.0.22621.0/arm64/DeployUtil.exe",
+        "bin/10.0.22621.0/arm64/MakeCert.exe",
+        "bin/10.0.22621.0/arm64/Microsoft.ComparePackage.Lib.dll",
+        "bin/10.0.22621.0/arm64/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.22621.0/arm64/Microsoft.PackageEditor.Lib.dll",
+        "bin/10.0.22621.0/arm64/Microsoft.Tools.Connectivity.dll",
+        "bin/10.0.22621.0/arm64/Microsoft.Tools.Deploy.dll",
+        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
+        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
+        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
+        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
+        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
+        "bin/10.0.22621.0/arm64/PackageEditor.exe",
+        "bin/10.0.22621.0/arm64/ServicingCommon.dll",
+        "bin/10.0.22621.0/arm64/SirepClient.assembly.manifest",
+        "bin/10.0.22621.0/arm64/SirepClient.dll",
+        "bin/10.0.22621.0/arm64/SirepInterop.dll",
+        "bin/10.0.22621.0/arm64/SshClient.dll",
+        "bin/10.0.22621.0/arm64/WinAppDeployCmd.exe",
+        "bin/10.0.22621.0/arm64/WinAppDeployCommon.dll",
+        "bin/10.0.22621.0/arm64/appxpackaging.dll",
+        "bin/10.0.22621.0/arm64/appxsip.dll",
+        "bin/10.0.22621.0/arm64/en-US/AppxPackaging.dll.mui",
+        "bin/10.0.22621.0/arm64/en/Microsoft.Tools.Deploy.resources.dll",
+        "bin/10.0.22621.0/arm64/en/WinAppDeployCmd.resources.dll",
+        "bin/10.0.22621.0/arm64/ipoverusb.discoverpartners.dll",
+        "bin/10.0.22621.0/arm64/makeappx.exe",
+        "bin/10.0.22621.0/arm64/makecat.exe",
+        "bin/10.0.22621.0/arm64/makecat.exe.manifest",
+        "bin/10.0.22621.0/arm64/makepri.exe",
+        "bin/10.0.22621.0/arm64/mc.exe",
+        "bin/10.0.22621.0/arm64/mdmerge.exe",
+        "bin/10.0.22621.0/arm64/midl.exe",
+        "bin/10.0.22621.0/arm64/midlc.exe",
+        "bin/10.0.22621.0/arm64/midlrt.exe",
+        "bin/10.0.22621.0/arm64/midlrtmd.dll",
+        "bin/10.0.22621.0/arm64/mrmsupport.dll",
+        "bin/10.0.22621.0/arm64/msisip.dll",
+        "bin/10.0.22621.0/arm64/mssign32.dll",
+        "bin/10.0.22621.0/arm64/mt.exe",
+        "bin/10.0.22621.0/arm64/mt.exe.config",
+        "bin/10.0.22621.0/arm64/opcservices.dll",
+        "bin/10.0.22621.0/arm64/rc.exe",
+        "bin/10.0.22621.0/arm64/rcdll.dll",
+        "bin/10.0.22621.0/arm64/signtool.exe",
+        "bin/10.0.22621.0/arm64/signtool.exe.manifest",
+        "bin/10.0.22621.0/arm64/tracewpp.exe",
+        "bin/10.0.22621.0/arm64/uuidgen.exe",
+        "bin/10.0.22621.0/arm64/winmdidl.exe",
+        "bin/10.0.22621.0/arm64/wintrust.dll",
+        "bin/10.0.22621.0/arm64/wintrust.dll.ini",
+        "bin/10.0.22621.0/x64/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.22621.0/x64/ComparePackage.exe",
+        "bin/10.0.22621.0/x64/DeployUtil.exe",
+        "bin/10.0.22621.0/x64/MakeCert.exe",
+        "bin/10.0.22621.0/x64/Microsoft.ComparePackage.Lib.dll",
+        "bin/10.0.22621.0/x64/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.22621.0/x64/Microsoft.PackageEditor.Lib.dll",
+        "bin/10.0.22621.0/x64/Microsoft.Tools.Connectivity.dll",
+        "bin/10.0.22621.0/x64/Microsoft.Tools.Deploy.dll",
+        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
+        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
+        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
+        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
+        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
+        "bin/10.0.22621.0/x64/PackageEditor.exe",
+        "bin/10.0.22621.0/x64/ServicingCommon.dll",
+        "bin/10.0.22621.0/x64/SirepClient.assembly.manifest",
+        "bin/10.0.22621.0/x64/SirepClient.dll",
+        "bin/10.0.22621.0/x64/SirepInterop.dll",
+        "bin/10.0.22621.0/x64/SshClient.dll",
+        "bin/10.0.22621.0/x64/WinAppDeployCmd.exe",
+        "bin/10.0.22621.0/x64/WinAppDeployCommon.dll",
+        "bin/10.0.22621.0/x64/appxpackaging.dll",
+        "bin/10.0.22621.0/x64/appxsip.dll",
+        "bin/10.0.22621.0/x64/en-US/AppxPackaging.dll.mui",
+        "bin/10.0.22621.0/x64/en/Microsoft.Tools.Deploy.resources.dll",
+        "bin/10.0.22621.0/x64/en/WinAppDeployCmd.resources.dll",
+        "bin/10.0.22621.0/x64/ipoverusb.discoverpartners.dll",
+        "bin/10.0.22621.0/x64/makeappx.exe",
+        "bin/10.0.22621.0/x64/makecat.exe",
+        "bin/10.0.22621.0/x64/makecat.exe.manifest",
+        "bin/10.0.22621.0/x64/makepri.exe",
+        "bin/10.0.22621.0/x64/mc.exe",
+        "bin/10.0.22621.0/x64/mdmerge.exe",
+        "bin/10.0.22621.0/x64/midl.exe",
+        "bin/10.0.22621.0/x64/midlc.exe",
+        "bin/10.0.22621.0/x64/midlrt.exe",
+        "bin/10.0.22621.0/x64/midlrtmd.dll",
+        "bin/10.0.22621.0/x64/mrmsupport.dll",
+        "bin/10.0.22621.0/x64/msisip.dll",
+        "bin/10.0.22621.0/x64/mssign32.dll",
+        "bin/10.0.22621.0/x64/mt.exe",
+        "bin/10.0.22621.0/x64/mt.exe.config",
+        "bin/10.0.22621.0/x64/opcservices.dll",
+        "bin/10.0.22621.0/x64/rc.exe",
+        "bin/10.0.22621.0/x64/rcdll.dll",
+        "bin/10.0.22621.0/x64/signtool.exe",
+        "bin/10.0.22621.0/x64/signtool.exe.manifest",
+        "bin/10.0.22621.0/x64/tracewpp.exe",
+        "bin/10.0.22621.0/x64/uuidgen.exe",
+        "bin/10.0.22621.0/x64/winmdidl.exe",
+        "bin/10.0.22621.0/x64/wintrust.dll",
+        "bin/10.0.22621.0/x64/wintrust.dll.ini",
+        "bin/10.0.22621.0/x86/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.22621.0/x86/ComparePackage.exe",
+        "bin/10.0.22621.0/x86/DeployUtil.exe",
+        "bin/10.0.22621.0/x86/MakeCert.exe",
+        "bin/10.0.22621.0/x86/Microsoft.ComparePackage.Lib.dll",
+        "bin/10.0.22621.0/x86/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.22621.0/x86/Microsoft.PackageEditor.Lib.dll",
+        "bin/10.0.22621.0/x86/Microsoft.Tools.Connectivity.dll",
+        "bin/10.0.22621.0/x86/Microsoft.Tools.Deploy.dll",
+        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
+        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
+        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
+        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
+        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
+        "bin/10.0.22621.0/x86/PackageEditor.exe",
+        "bin/10.0.22621.0/x86/ServicingCommon.dll",
+        "bin/10.0.22621.0/x86/SirepClient.assembly.manifest",
+        "bin/10.0.22621.0/x86/SirepClient.dll",
+        "bin/10.0.22621.0/x86/SirepInterop.dll",
+        "bin/10.0.22621.0/x86/SshClient.dll",
+        "bin/10.0.22621.0/x86/WinAppDeployCmd.exe",
+        "bin/10.0.22621.0/x86/WinAppDeployCommon.dll",
+        "bin/10.0.22621.0/x86/appxpackaging.dll",
+        "bin/10.0.22621.0/x86/appxsip.dll",
+        "bin/10.0.22621.0/x86/en-US/AppxPackaging.dll.mui",
+        "bin/10.0.22621.0/x86/en/Microsoft.Tools.Deploy.resources.dll",
+        "bin/10.0.22621.0/x86/en/WinAppDeployCmd.resources.dll",
+        "bin/10.0.22621.0/x86/ipoverusb.discoverpartners.dll",
+        "bin/10.0.22621.0/x86/makeappx.exe",
+        "bin/10.0.22621.0/x86/makecat.exe",
+        "bin/10.0.22621.0/x86/makecat.exe.manifest",
+        "bin/10.0.22621.0/x86/makepri.exe",
+        "bin/10.0.22621.0/x86/mc.exe",
+        "bin/10.0.22621.0/x86/mdmerge.exe",
+        "bin/10.0.22621.0/x86/midl.exe",
+        "bin/10.0.22621.0/x86/midlc.exe",
+        "bin/10.0.22621.0/x86/midlrt.exe",
+        "bin/10.0.22621.0/x86/midlrtmd.dll",
+        "bin/10.0.22621.0/x86/mrmsupport.dll",
+        "bin/10.0.22621.0/x86/msisip.dll",
+        "bin/10.0.22621.0/x86/mssign32.dll",
+        "bin/10.0.22621.0/x86/mt.exe",
+        "bin/10.0.22621.0/x86/mt.exe.config",
+        "bin/10.0.22621.0/x86/opcservices.dll",
+        "bin/10.0.22621.0/x86/rc.exe",
+        "bin/10.0.22621.0/x86/rcdll.dll",
+        "bin/10.0.22621.0/x86/signtool.exe",
+        "bin/10.0.22621.0/x86/signtool.exe.manifest",
+        "bin/10.0.22621.0/x86/tracewpp.exe",
+        "bin/10.0.22621.0/x86/uuidgen.exe",
+        "bin/10.0.22621.0/x86/winmdidl.exe",
+        "bin/10.0.22621.0/x86/wintrust.dll",
+        "bin/10.0.22621.0/x86/wintrust.dll.ini",
+        "build/Microsoft.Windows.SDK.BuildTools.props",
+        "build/Microsoft.Windows.SDK.BuildTools.targets",
+        "buildTransitive/Microsoft.Windows.SDK.BuildTools.props",
+        "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets",
+        "microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+        "microsoft.windows.sdk.buildtools.nuspec",
+        "schemas/10.0.22621.0/winrt/AppxManifestSchema.xsd",
+        "schemas/10.0.22621.0/winrt/AppxManifestSchema2010_v2.xsd",
+        "schemas/10.0.22621.0/winrt/AppxManifestSchema2013.xsd",
+        "schemas/10.0.22621.0/winrt/FoundationManifestSchema.xsd",
+        "schemas/10.0.22621.0/winrt/FoundationManifestSchema_v2.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v10.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v11.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v12.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v13.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v2.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v3.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v4.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v5.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v6.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v7.xsd",
+        "schemas/10.0.22621.0/winrt/UapManifestSchema_v8.xsd"
+      ]
+    },
+    "Markdown Viewer/1.0.0": {
+      "type": "project",
+      "path": "../../Markdown Viewer/Markdown Viewer.csproj",
+      "msbuildProject": "../../Markdown Viewer/Markdown Viewer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "UAP,Version=v10.0.17763": [
+      "Markdown Viewer >= 1.0.0",
+      "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.756"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Igorek\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Dokumenty ( Dysk D )\\VB-Projects\\MD Viewer\\MDV Installer\\MDV Installer.wapproj",
+      "projectName": "MDV Installer",
+      "projectPath": "D:\\Dokumenty ( Dysk D )\\VB-Projects\\MD Viewer\\MDV Installer\\MDV Installer.wapproj",
+      "packagesPath": "C:\\Users\\Igorek\\.nuget\\packages\\",
+      "outputPath": "D:\\Dokumenty ( Dysk D )\\VB-Projects\\MD Viewer\\MDV Installer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Igorek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net451"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "targetAlias": "net451",
+          "projectReferences": {
+            "D:\\Dokumenty ( Dysk D )\\VB-Projects\\Markdown Viewer\\Markdown Viewer.csproj": {
+              "projectPath": "D:\\Dokumenty ( Dysk D )\\VB-Projects\\Markdown Viewer\\Markdown Viewer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU1702"
+        ]
+      }
+    },
+    "frameworks": {
+      "uap10.0.17763": {
+        "targetAlias": "net451",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.0.22621.756, )"
+          }
+        },
+        "imports": [
+          "netcoreapp3.1",
+          "netcoreapp3.0",
+          "netcoreapp2.0",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net7.0-windows10.0.19041",
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-arm64-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „AvalonEdit 6.3.0.90” został przywrócony przy użyciu elementu „.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041, .NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „UAP,Version=v10.0.17763”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "AvalonEdit",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „MdXaml 1.27.0” został przywrócony przy użyciu elementu „.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041, .NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „UAP,Version=v10.0.17763”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "MdXaml",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „MdXaml.Plugins 1.27.0” został przywrócony przy użyciu elementu „.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.19041, .NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „UAP,Version=v10.0.17763”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "MdXaml.Plugins",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    }
+  ]
+}
